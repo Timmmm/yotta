@@ -209,6 +209,10 @@ a git URL:
  * `"usefulmodule": "<anything>://somwhere.git"`
  * `"usefulmodule": "<anything>://somwhere.git#<version spec, tag, or branch name>"`
 
+To depend on another Yotta module in a relative path you can use this syntax:
+
+    `"usefulmodule": "../somewhere/.git"
+
 #### Depending on hg Modules
 To specify a module available from a mercurial server as a dependency, use
 a hg URL:
